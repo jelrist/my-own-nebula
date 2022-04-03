@@ -1,0 +1,21 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="my_own_nebula.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <!-- This line removes any default padding and style.
+       You might only need one of these values set. -->
+  <style> body { padding: 0; margin: 0; background-color:black; } </style>
+</head>
+
+<body>
+<h1 style="font-family:Arial, sans-serif; text-align:center; font-size:35px; font-weight:400; padding-top:5px; color:white">My own nebula, 2022<br> <span style="font-size:22px; color:white;">Move mouse to guide the sprite  &#183;  Use slider to change amplitude  &#183;  Press any key to save a picture of your nebular art  &#183;  Reload page to start over </span><br><span style="font-size:17px; color:white;">Special credits and thanks to Emily Xie and her PyCon 2018 conference on making art with python.<br> I hope you enjoy the experience and if you share it with the world on instagram, please #myownnebula - THANKS! </span></h1>
+<div style="padding-bottom:10px; font-family:Arial, sans-serif; color:white; text-align:center;><label for="degrees">Amplitude (10-360):</label>
+<input type="range" id="degrees" name="degrees" min="10" max="360" step="1" value="180" oninput="document.getElementById('TOTAL_DEGREES').innerHTML = this.value">
+</body>
+</html>
